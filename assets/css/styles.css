@@ -547,7 +547,8 @@ html:not(.js) .nav__toggle{display:none}
 .form__success p{margin-top:var(--s2);color:var(--ink-soft);max-width:44ch;margin-inline:auto}
 
 /* ---------- Footer ---------- */
-.footer{background:var(--forest-900);color:var(--cream);padding-block:clamp(3.5rem,7vw,5.5rem) var(--s5)}
+.footer{position:relative;overflow:hidden;background:var(--forest-900);color:var(--cream);padding-block:clamp(3.5rem,7vw,5.5rem) var(--s5)}
+.footer .band__watermark{right:-3rem;bottom:-4rem;width:22rem}
 .footer__top{display:grid;gap:var(--s6);padding-bottom:var(--s6)}
 @media (min-width:45em){.footer__top{grid-template-columns:minmax(0,6fr) minmax(0,5fr)}}
 .footer__id{display:flex;align-items:flex-start;gap:var(--s3)}
