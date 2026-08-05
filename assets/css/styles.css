@@ -396,6 +396,10 @@ html:not(.js) .nav__toggle{display:none}
 .cov p:last-child{margin-top:var(--s2);color:var(--ink-soft);max-width:62ch}
 
 /* ---------- Carrier band (full-bleed dark statement) ---------- */
+.band__watermark{
+  position:absolute;right:-4rem;bottom:-5rem;width:26rem;height:auto;
+  color:var(--cream);opacity:.05;pointer-events:none;
+}
 .band{
   position:relative;overflow:hidden;
   background:var(--forest);color:var(--cream);
