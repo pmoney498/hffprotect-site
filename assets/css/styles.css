@@ -558,8 +558,10 @@ html:not(.js) .nav__toggle{display:none}
 }
 .footer__tag{
   font-size:.75rem;font-weight:700;letter-spacing:.18em;text-transform:uppercase;
-  color:var(--gold);margin-top:.5rem;
+  color:var(--oxblood);margin-top:.5rem;
 }
+.footer .amp{color:var(--oxblood)}
+.footer .dotsep+.dotsep::before{color:var(--oxblood)}
 .footer__contact{margin-top:var(--s3);font-size:var(--fs-0)}
 .footer__contact a{
   color:var(--cream);
