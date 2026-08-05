@@ -401,10 +401,6 @@ html:not(.js) .nav__toggle{display:none}
   background:var(--forest);color:var(--cream);
   padding-block:var(--section-pad);
 }
-.band__watermark{
-  position:absolute;right:-4rem;bottom:-5rem;width:26rem;height:auto;
-  color:var(--cream);opacity:.05;pointer-events:none;
-}
 .band__content{position:relative}
 .band .section__lead{color:rgba(246,241,228,.78)}
 /* carrier logo marquee — full-bleed light strip inside the dark band */
